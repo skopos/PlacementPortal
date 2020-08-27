@@ -1,0 +1,11 @@
+.subsection-level1{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    text-align:justify;
+}
+
+.subsection-level2{
+    width:50%;
+    padding-right:1em;
+}
