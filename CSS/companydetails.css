@@ -1,18 +1,18 @@
-.subsection-level1{
-    width:100%;
-    display:flex;
-    justify-content: space-around;
+body{
+    background-color: #f5fffa;
+}
+
+.row#header, .row#content{
+    padding:1em;
+}
+
+.row .row{
+ padding-left:1em;
+ padding-right:1em;
+}
+
+.col-md-8, .col-md-4{
     text-align:justify;
+    width:100%;
 }
-
-.subsection-level2{
-    width:50%;
-    padding-right:1em;
-    padding-left:5%;
-    padding-top:2em;
-    background-color:ivory;
-}
-
-
-
 
