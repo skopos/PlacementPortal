@@ -1,10 +1,18 @@
+body{
+    height:100%;
+    width:100%;
+}
 
 
-.col-4{
+.col-md-4{
     /*float:left;*/
     /*border:solid black 1px;*/
-    height:10%;
+    height:50%;
     text-align:center;
+}
+
+.col-sm-12{
+    height:25%;
 }
 
 img {
@@ -13,13 +21,24 @@ img {
     border:solid black 1px;
 }
 
-h1{
-    justify-self: center;
+
+.nav{
+    width:inherit;
+    margin:none;
+    border: 1px solid #ccc;
+    background-color: #54defd;
 }
 
-nav{
-    width:100%;
-    margin-bottom:0.5em;
-    padding-top:1em;
-    border-top:solid black 2px;
+.nav a{
+    background-color: inherit;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    padding: 14px 16px;
+    transition:0.3s;
+    font-size:17px;
+}
+
+.nav a:hover{
+    background-color: #49c6e5;
 }
