@@ -3,7 +3,9 @@ body{
     width:100%;
 }
 
-
+.row{
+    padding:1em;
+}
 .col-md-4{
     /*float:left;*/
     /*border:solid black 1px;*/

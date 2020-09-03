@@ -35,6 +35,8 @@ select{
     max-width: 100%;
 }
 
+
+
 .col-md-4>input:not([type="radio"]), .col-md-4>select{
     width:100%;
 }
