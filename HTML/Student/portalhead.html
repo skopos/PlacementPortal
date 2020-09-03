@@ -6,24 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Portal</title>
     <link rel="stylesheet" href="..\..\CSS\navstyles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <div class="row">
-            <div class="col-1">
+            <div class="col-4">
                 <img src="..\..\Images\healer.png" />
             </div>
-            <div class="col-2">
+            <div class="col-4">
                 <h1>Student Portal</h1>
             </div>
 
-            <div class="col-3">
+            <div class="col-4">
                 <input type="button" id="logout" value="Logout" name="logout" />
             </div>
         </div>
         <div class="row">
-            <nav>
+            <nav class="nav justify-content-center">
                 <input type="button" id="home" value="Home" name="home" />
                 <a href="companydetails.html" target="mainframe"><input type="button" id="companies" value="Companies"
                         name="companies" /></a>
