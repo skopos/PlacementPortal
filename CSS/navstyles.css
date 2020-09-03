@@ -44,3 +44,7 @@ img {
 .nav a:hover{
     background-color: #49c6e5;
 }
+
+.nav a.active {
+    background-color: #49c6e5;
+  }
