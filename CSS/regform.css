@@ -1,6 +1,7 @@
 body{
     background-color: #f5fffa;
-    
+    max-width:100%;
+    overflow-x:hidden;
 }
 
 form{
