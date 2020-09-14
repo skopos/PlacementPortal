@@ -164,7 +164,7 @@
             </form>
         </div>
     </div>
-    <section class="hide row" id="company_link">
+    <section class="optional row" id="company_link">
         <div class="col text-center text-md-center">
             <p>The company you have selected requires you to complete registration by going on its site at the
                 link mentioned below.</p>
@@ -176,6 +176,15 @@
     <script>
         function populate(selectedVal) {
             document.getElementById('companybox').value = selectedVal.value;
+            console.log(selectedVal.value);
+            if ((selectedVal.value)!='Amazon'){
+                console.log('Here')
+                document.getElementById("company_link").style.visibility="hidden";
+            }
+            else{
+                document.getElementById("company_link").style.visibility="visible";
+            }
+           
         }
     </script>
 

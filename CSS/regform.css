@@ -22,7 +22,7 @@ body{
     font-weight: bold;;
 }
 
-#c_registration_pagebody input, #c_registration_pagebody textarea{
+#c_registration_pagebody input,#c_registration_pagebody textarea{
     border:1px solid black;
     border-radius:2px;
     margin-top:0.5em;
@@ -38,7 +38,7 @@ body{
 
 
 
-#c_registration_pagebody .col-md-4>input:not([type="radio"]), #c_registration_pagebody .col-md-4>select{
+#c_registration_pagebody .col-md-4>input:not([type="radio"]), .col-md-4>select{
     width:100%;
 }
 
@@ -46,7 +46,7 @@ body{
     width:48%;
 }
 
-#c_registration_pagebody .col>textarea,.col>input{
+#c_registration_pagebody .col>textarea,#c_registration_pagebody .col>input{
     width:31.5%;
 }
 
