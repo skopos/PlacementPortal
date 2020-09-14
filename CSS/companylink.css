@@ -1,4 +1,9 @@
-.container{
+#company_link>.col{
     border:1px solid #54defd;
     margin-top:1em;
+    margin-left:2em;
+    margin-right:2em;
+    margin-bottom:1em;
+    padding:0.5em;
+    width:80%;
 }
