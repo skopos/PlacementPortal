@@ -25,8 +25,8 @@
         }
     </script>
 </head>
-
-<div id="navigationbar">
+<body>
+<div id="navigationbar" class="sticky-top">
     <header class="row ">
         <div class="col-md-4 col-sm-12 my-auto">
             <img src="..\..\Images\amritalogo.png" />
@@ -46,11 +46,16 @@
     </nav>
 </div>
 
+<section class="companylist_body">
+<section class="embed-responsive embed-responsive-21by9">
+<iframe src="companies_list_1.html" id="body_frame" class="body embed-responsive-item"></iframe>
+</section>
 
-<iframe src="companies_list_1.html" id="body_frame" class="body"></iframe>
+
 <footer>
     <button class="foot" id="foot_but_1" disabled onclick="PageHandler(foot_but_1)">1</button>
     <button class="foot" id="foot_but_2" onclick="PageHandler(foot_but_2)">2</button>
 </footer>
-
+</section>
+</body>
 </html>
