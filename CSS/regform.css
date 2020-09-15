@@ -38,19 +38,13 @@ body{
 
 
 
-#c_registration_pagebody .col-md-4>input:not([type="radio"]), .col-md-4>select{
+#c_registration_pagebody .col-md-4>input:not([type="radio"]), .col-md-4>select, .col-md-4 textarea{
     width:100%;
 }
 
-#c_registration_pagebody .col-md-8>input{
-    width:48%;
-}
-
-#c_registration_pagebody .col>textarea,#c_registration_pagebody .col>input{
-    width:31.5%;
-}
 
 #c_registration_pagebody .btn{
     margin-bottom:1em;
+    
 }
 
