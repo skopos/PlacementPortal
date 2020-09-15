@@ -1,80 +1,93 @@
-html, body{
-    height:100%;
-    width:100%;
-    overflow-x:hidden;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
-#navigationbar header{
-    background-color:#f5fffa;
+#navigationbar header {
+  background-color: #f5fffa;
 }
-#navigationbar .row{
-    padding:1em;
+
+#navigationbar .row {
+  padding: 1em;
 }
-#navigationbar .col-md-4{
-    /*float:left;*/
-    /*border:solid black 1px;*/
-   text-align:center;
-   margin-top:auto;
-   margin-bottom:auto;
+
+#navigationbar .col-md-4 {
+  /*float:left;*/
+  /*border:solid black 1px;*/
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
 
 }
 
 
 #navigationbar img {
-    width:auto;
-    height:100px;
-    border:solid black 1px;
+  width: auto;
+  height: 100px;
+  border: solid black 1px;
 }
 
 
-#navigationbar .nav{
-    width:inherit;
-    margin:none;
-    border: 1px solid #ccc;
-    background-color: #54defd;
+#navigationbar .nav {
+  width: inherit;
+  margin: none;
+  border: 1px solid #ccc;
+  background-color: #54defd;
 }
 
-#navigationbar .nav a{
-    background-color: inherit;
-    border:none;
-    outline:none;
-    cursor:pointer;
-    padding: 14px 16px;
-    transition:0.3s;
-    font-size:17px;
+#navigationbar .nav a {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
 }
 
-#navigationbar .nav a:hover{
-    background-color: #49c6e5;
-    color:#f5fffa;;
+#navigationbar .nav a:hover {
+  background-color: #49c6e5;
+  color: #f5fffa;
+  ;
 }
 
 #navigationbar .nav a.active {
-    background-color: #49c6e5;
-    color:#f5fffa;
-  }
+  background-color: #49c6e5;
+  color: #f5fffa;
 
-  #navigationbar   h1{
-    font-family: 'Philosopher', sans-serif;
-    color:#49c6e5;;
+}
 
-  }
+#navigationbar h1 {
+  font-family: 'Philosopher', sans-serif;
+  color: #49c6e5;
+  ;
 
-  #navigationbar a{
-    font-family: 'Exo 2', sans-serif;
-    font-weight:bold;
-    color:#49c6e5;
-  }
+}
 
-  #navigationbar .btn#signinout{
-    font-family: 'Exo 2', sans-serif;
-    font-weight:bold;
-    background-color:#54defd;
-    color:blue;
-  }
+#navigationbar a {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+  color: #49c6e5;
+}
 
-  #navigationbar .btn#signinout:hover{
-    background-color:#49c6e5;
-    color:#f5fffa;
-    border:1px solid #ccc;
-  }
+#navigationbar .btn#signinout {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+  background-color: #54defd;
+  color: blue;
+}
+
+#navigationbar .btn#signinout:hover {
+  background-color: #49c6e5;
+  color: #f5fffa;
+  border: 1px solid #ccc;
+}
+
+#navigationbar .disabled {
+  pointer-events: none;
+  cursor: default;
+  background-color: #49c6e5;
+  color: #f5fffa;
+}
