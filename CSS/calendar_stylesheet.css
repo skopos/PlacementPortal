@@ -30,3 +30,11 @@ h2{
     width:100%;
     text-align: center;
 }
+
+.card{
+    text-align:center;
+}
+
+.btn-light{
+    border:1px solid grey !important;
+}
