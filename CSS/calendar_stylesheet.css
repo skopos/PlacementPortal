@@ -1,0 +1,32 @@
+html, body{
+    max-width:100%;
+    margin:0;
+    overflow-x:hidden;
+}
+
+#calendar_body img{
+    width:80%;
+    height:80%;
+}
+
+#main_row{
+    padding:1em;
+}
+
+.col-md-8{
+    background-color: #F5FFFA;
+}
+
+.col-md-4>.row{
+    height:50%;
+    background-color: #F5FFFA;
+}
+
+h2{
+    font-family: "Philosopher";
+    font-weight: bold;
+    color: #F5FFFA;
+    background-color: #49c6e5;
+    width:100%;
+    text-align: center;
+}

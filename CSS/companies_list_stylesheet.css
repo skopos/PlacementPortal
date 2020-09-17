@@ -4,26 +4,23 @@ html,body{
     overflow:hidden;
 }
 
-header{
-    margin:0%;
+.companylist_body h1{
+    text-align:center;
+    font-family:'Philosopher';
+    margin:1em;
 }
-
-
 section.heading{
-    font-family: Philosopher;
+    font-family: 'Philosopher';
     text-align: center;
     padding: 8px;
     background-color: rgb(75, 75, 75);
 }
-
-
 
 iframe.body{
     border: 2px;
     border-radius: 12px;
     border-color: grey;
     border-style: solid;
-    height: 450px;
     width: 100%;
 }
 
@@ -32,7 +29,7 @@ iframe.body{
 }
 
 .embed-responsive{
-    height:60%;
+    height:50%;
 }
 
 footer{
@@ -40,26 +37,20 @@ footer{
     border-radius: 12px;
     border-color: grey;
     border-style: solid;
-    background-color: #f5fffa;
-    text-align: center;
-    color: #484848;
-    font-style: oblique;
+    height:95%;
 }
 
-button.foot{
-    padding: 14px 40px;
-    border-radius: 8px;
-    border-color: honeydew;
-    font-family: Philosopher;
-    font-style: oblique;
-    font-weight: bold;
-    color: honeydew;
+.btn-outline-dark ,.btn-block{
+    border-radius: 8px !important;
+    border-color: grey !important;
+    font-weight: bold !important;
+    padding: 1em;
+    font-family: 'Exo 2';
     font-size: 16px;
-    background-color: orangered;
-    outline: none;
+    margin:1em;
 }
 
-button.foot:disabled{
-    background-color: #802200;
+.btn:disabled{
+    background-color: #f5fffa !important;
 }
 

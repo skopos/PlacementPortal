@@ -1,47 +1,37 @@
+body{
+    overflow-x:hidden;
+    margin:0;
+}
+
 div.row:after{
     content: "";
     display: table;
     clear: both;
 }
 
-div.column1{
-    float: left;
-    width: 6.666666%;
+div.name_col{
+    justify-content:center;
     height: 100%;
-    background-color: #F5FFFA;
+
 }
 
-div.column2{
-    float: left;
-    width: 20%;
+div.tag{
+    text-align: center;
+    align-items:center;
     height: 100%;
-    background-color: #F5FFFA;
+
 }
 
-div.column3{
-    float: left;
-    width: 5%;
-    height: 100%;
-    background-color: #F5FFFA;
-}
-
-div.column4{
-    float: left;
-    width: 15%;
-    height: 100%;
-    background-color: #F5FFFA;
-}
 
 button.com_name{
     padding: 10% 30%;
     border-radius: 8px;
     border-color: honeydew;
-    font-family: Philosopher;
-    font-style: oblique;
+    font-family: 'Exo 2';
     font-weight: bold;
     color: honeydew;
     font-size: 16px;
-    background-color: orangered;
+    background-color:#F5FFFA;
     outline: none;
     position: relative;
     left: 9%;
@@ -49,17 +39,16 @@ button.com_name{
 }
 
 button.com_tag{
-    padding: 10% 30%;
+    padding: 1em;
     border-radius: 8px;
     border-color: honeydew;
-    font-family: Philosopher;
-    font-style: oblique;
+    font-family: 'Exo 2';
     font-weight: bold;
     color: honeydew;
     font-size: 16px;
-    background-color: orangered;
+    background-color:#F5FFFA;
     outline: none;
     position: relative;
-    left: 6%;
-    margin-top: 39%;
+    left: 9%;
+    margin-top: 25%;
 }
