@@ -4,9 +4,12 @@ html, body{
     overflow-x:hidden;
 }
 
+
+
 #calendar_body img{
     width:80%;
     height:80%;
+    align-self: center;
 }
 
 #main_row{
