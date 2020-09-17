@@ -7,15 +7,15 @@ html, body{
 
 
 #calendar_body img{
-    width:80%;
+    width:90%;
     height:80%;
     align-self: center;
+    
 }
 
 #main_row{
     padding:1em;
 }
-
 .col-md-8{
     background-color: #F5FFFA;
 }
