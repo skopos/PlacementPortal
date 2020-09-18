@@ -70,6 +70,15 @@ function validate(event){
         return false;
     }
 
+    resume=document.getElementById('r-upload').value;
+    extension=resume.split('.').reverse()[0];
+    if(extension!='pdf'){
+        alert('Invalid resume format');
+        return false;
+    }
+
+
+
   return true;
     }
 
