@@ -32,6 +32,7 @@ h2{
     background-color: #49c6e5;
     width:100%;
     text-align: center;
+    cursor: pointer;
 }
 
 h2:hover{

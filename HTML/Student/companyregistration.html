@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Philosopher:wght@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <script src="..\..\JS\Student\registrationvalidation.js" type="text/javascript"></script> 
 </head>
 
 <body>
@@ -43,7 +45,7 @@
             </select>
         </div>
         <div class="row align-items-center justify-content-center">
-            <form id="register_form" method="POST" action="">
+            <form id="register_form" method="POST" action="" onsubmit="validate()">
                 <h1>Registration Form</h1>
 
                 <fieldset name="Personal" class="border-light pl-2 m-3">
@@ -122,7 +124,7 @@
                     <section id="markdetails" class="row">
                         <div class="col-md-4">
                             <label for="cgpa">CGPA</label><br />
-                            <input type="number" id="cgpa" name="cgpa" min=0 max=10 required>
+                            <input type="number" id="cgpa" name="cgpa" min=0.0 max=10.0 required>
                         </div>
                     </section>
                 </fieldset>
