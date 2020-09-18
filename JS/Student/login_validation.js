@@ -9,9 +9,11 @@ function LoginValidation(){
         }
         else{
             alert("You have entered an invalid password!");
+            document.write(em);
         }
     }
     else{
         alert("You have entered an invalid email address!");
+        document.write(em);
     }
 };
