@@ -13,4 +13,4 @@ function LoginValidation(){
     // else{
     //     alert("You have entered an invalid email address!");
     // }
-}
+};
