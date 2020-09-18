@@ -51,8 +51,8 @@ function validate(event){
     }
 
     var cgpa=document.getElementById('cgpa').value;
-    var temp=cgpa.toFixed(2);
-    if (temp.contains('e')){
+    var temp=parseFloat(cgpa).toFixed(2);
+    if (temp.includes('e')){
         console.log(temp);
         alert('Invalid number entered');
         return false;
