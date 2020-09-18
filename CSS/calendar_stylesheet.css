@@ -35,6 +35,10 @@ h2{
     cursor: pointer;
 }
 
+h2:hover{
+    cursor: default;
+}
+
 .card{
     text-align:center;
 }
