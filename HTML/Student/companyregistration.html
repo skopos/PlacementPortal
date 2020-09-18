@@ -116,13 +116,13 @@
                         </div>
                         <div class="col-md-4">
                             <label for="gradyear">Year of Graduation</label><br />
-                            <input type="number" id="gradyear" name="gradyear" required>
+                            <input type="number" id="gradyear" name="gradyear" min=2021 max=2023 required>
                         </div>
                     </section>
                     <section id="markdetails" class="row">
                         <div class="col-md-4">
                             <label for="cgpa">CGPA</label><br />
-                            <input type="number" id="cgpa" name="cgpa" required>
+                            <input type="number" id="cgpa" name="cgpa" min=0 max=10 required>
                         </div>
                     </section>
                 </fieldset>
@@ -145,7 +145,7 @@
                     <section id="company-question" class="row">
                         <div class="col-md-4">
                             <label for="question">Answer the following</label><br />
-                            <textarea id="question" name="question"></textarea>
+                            <textarea id="question" name="question" minlength=50></textarea>
                         </div>
                     </section>
 
