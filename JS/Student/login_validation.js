@@ -1,5 +1,4 @@
 function LoginValidation(){
-    document.write("hello");
     var em = document.getElementById("email");
     var pas = document.getElementById("pass");
     if (/^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)$/.test(em)){
