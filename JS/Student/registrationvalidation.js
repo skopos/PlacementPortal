@@ -1,7 +1,7 @@
 function validate(event){
 
     const stringRegex=/^[A-Z][a-z]+$/
-    const phoneNumRegex=/^[789]\d{9}$/
+    const phoneNumRegex=/^[789](\d{9})$/
     const rollNumRegex=/^CB\.EN\.(U4|P2)(CSE|ECE|MEE|EEE|CIV|CHE)[1][78][0123456][0123456][\d{1}]$/
     const emailRegex=/^[a-z][a-z\d]+@(gmail|hotmail|yahoo)\.com$/
     
@@ -44,14 +44,14 @@ function validate(event){
     }
 
     var phone=document.getElementById('phonenum').value;
-    if(!phoneNumRegex.test(toString(phone))){
-        console.log(toString(phone));
+    if(!phoneNumRegex.test(phone)){
+        console.log(phone);
         alert('Invalid phone number');
         return false;
     }
 
     var cgpa=document.getElementById('cgpa').value;
-    var temp=cgpa.ToFixed(2);
+    var temp=cgpa.toFixed(2);
     if (temp.contains('e')){
         console.log(temp);
         alert('Invalid number entered');
